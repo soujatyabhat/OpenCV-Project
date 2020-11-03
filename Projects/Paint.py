@@ -13,13 +13,14 @@ import pymsgbox
 color_temp = (0,0,255)
 color = ""
 
+#This Function Works Whens mouse right click has pressed
 def click_event(event,x,y,flags,param):
     if event == cv2.EVENT_LBUTTONDOWN:
         cv2.circle(img, (x,y), 3, (0,0,255),-1)
             
+        #Append straight line points in points List
         points.append((x,y))
-        
-        print(points)
+
         if len(points) >= 2:
              if color == "" or color == "red":
                 cv2.line(img, points[-2], points[-1], (0,0,255),5)  
@@ -37,9 +38,10 @@ def click_event(event,x,y,flags,param):
             
         cv2.imshow('Display Image',img)
         
-    
+#Black Board
 img = np.zeros((420,640,3),np.uint8)
 
+#Point's coodinates are stores in this list
 points = []
 
 while 1:
@@ -83,6 +85,7 @@ while 1:
         print("Quit")
         break
     
+    #Paint Saving Section
     elif key == ord("s"):
         print("Key S has pressed")
         path = pymsgbox.prompt('Enter Saving Path : ')

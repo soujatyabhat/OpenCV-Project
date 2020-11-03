@@ -1,0 +1,24 @@
+1. How to open image using OpenCV
+2. How to start live camera 
+3. How to convert images and videos into grayscale or others colour format 
+4. How to Draw different shapes (Stright line, circle, rectangle) using OpenCV
+5. How to add text on image or live camera using OpenCV
+6. Simple Video Recorder using OpenCV
+7. Mouse Key Events (Right key , left key)
+8. Dealing with trackbars (RGB Colour pattel macker using Trackbar)
+9. What is CVS Colour Pattel and how to make detect objects by its colour using CVS
+10. What is Thesholding . Display different types of thresholding
+11. What is Matplotlib (Demo)
+12. Adaptive Thresholding (Demo)
+13. Morphological Transformation (Demo)
+14. Smoothing (Demo)
+15. Binary Thresholding (Demo)
+16. Face and Eye Detection (Live and Still both)
+
+
+
+Projects:
+1. Paint Program
+2. Print custom text using puttext
+2. Live Camera Propertices (Brightness control, Color2BW or vice versa, Custom text moving using Trackbar)
+  
