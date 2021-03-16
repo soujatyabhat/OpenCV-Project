@@ -14,6 +14,8 @@
 14. Smoothing (Demo)
 15. Binary Thresholding (Demo)
 16. Face and Eye Detection (Live and Still both)
+17. Regeion of interest
+18. Object Tracking
 
 
 
